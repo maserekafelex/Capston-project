@@ -3,23 +3,6 @@
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
   "main": "menu.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.27.5",
-    "hint": "^7.1.8",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  },
   "dependencies": {
     "abab": "^2.0.6",
     "abbrev": "^1.1.1",
@@ -54,6 +37,7 @@
     "autoprefixer": "^9.8.8",
     "available-typed-arrays": "^1.0.5",
     "axe-core": "^4.7.2",
+    "babel-eslint": "^10.1.0",
     "bail": "^1.0.5",
     "balanced-match": "^1.0.2",
     "base64-js": "^1.5.1",
@@ -161,8 +145,11 @@
     "escape-goat": "^2.1.1",
     "escape-string-regexp": "^1.0.5",
     "escodegen": "^2.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-import-resolver-node": "^0.3.7",
     "eslint-module-utils": "^2.8.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-scope": "^5.1.1",
     "eslint-utils": "^2.1.0",
     "eslint-visitor-keys": "^3.4.1",
@@ -609,5 +596,18 @@
     "yargs-parser": "^20.2.9",
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
-  }
+  },
+  "devDependencies": {
+    "hint": "^7.1.8",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
