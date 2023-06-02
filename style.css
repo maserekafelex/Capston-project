@@ -1,0 +1,419 @@
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(230, 238, 238, 0.575);
+  }
+
+  .navbar {
+    padding: 10px;
+    background-color: rgb(193, 194, 197);
+  }
+
+  .nav-list {
+    list-style-type: none;
+    margin-left: 78px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  li a {
+    display: inline;
+    text-decoration: none;
+  }
+
+  li {
+    display: inline;
+  }
+
+  h2 {
+    color: rgb(83, 71, 255);
+  }
+
+  .contents {
+    background-image: url(Asset/feat\ img/bg/mobile_bg.png);
+  }
+
+  .contents-head {
+    margin-left: 56px;
+  }
+
+  .power {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date {
+    font-size: 15px;
+    margin-left: 45px;
+  }
+
+  .art {
+    font-size: 21px;
+  }
+
+  .load {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .paragraph {
+    border: 1px solid #fff;
+    margin: 4px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+  }
+
+  .load p {
+    margin-left: 45px;
+  }
+
+  .contain {
+    color: rgb(204, 60, 60);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  .para {
+    background-color: #bd2b2b;
+    border: 3px white solid;
+    border-radius: 4px;
+    padding: 5%;
+    font-size: 20px;
+  }
+
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-one {
+    display: flex;
+    background-color: bisque;
+    margin: 10px;
+    height: 75px;
+    margin-left: 40px;
+  }
+
+  .card-info {
+    text-align: center;
+    font-size: 15px;
+    color: #bd2b2b;
+  }
+
+  .info p {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .icon1 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .ox {
+    font-size: 12px;
+  }
+
+  .card-icon {
+    width: 60px;
+    padding: 2px;
+    padding-top: 30%;
+    padding-left: 40%;
+  }
+
+  .icon {
+    width: 190px;
+    padding: 2px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+  }
+
+  .con {
+    width: 110px;
+    height: 50px;
+    padding-top: 4%;
+    padding-left: 7%;
+  }
+
+  .noc {
+    width: 110px;
+    height: 70px;
+    padding-top: 4%;
+    padding-left: 7%;
+  }
+
+  .box {
+    text-align: center;
+  }
+
+  .card-box {
+    margin-right: 10px;
+  }
+
+  .join {
+    text-align: center;
+    background-color: maroon;
+    color: aliceblue;
+    display: flex;
+    margin: 60px;
+    padding: 2%;
+    font-size: 25px;
+    margin-right: 40px;
+  }
+
+  .HeaderTitle {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-left: 10px;
+  }
+
+  .speak {
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .TonicHeader {
+    text-align: center;
+    padding: 7%;
+  }
+
+  .Content {
+    color: #bd2b2b;
+    font-size: 13px;
+  }
+
+  .pop {
+    font-size: 20px;
+  }
+
+  .image {
+    width: 175px;
+    height: 175px;
+    margin-left: 20px;
+  }
+
+  .TonicEnd {
+    color: lightcoral;
+  }
+
+  .second {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(230, 238, 238, 0.575);
+  }
+
+  .contents {
+    padding: 5%;
+    background-image: url(Asset/feat\ img/bg/main_disktop.png);
+  }
+
+  .navbar {
+    padding: 10px;
+    background-color: rgb(193, 194, 197);
+  }
+
+  .nav-list {
+    list-style-type: none;
+    margin-left: 78px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  li a {
+    display: inline;
+    text-decoration: none;
+  }
+
+  li {
+    display: inline;
+  }
+
+  h2 {
+    color: rgb(83, 71, 255);
+  }
+
+  .contents-head {
+    margin-left: 56px;
+  }
+
+  .date {
+    font-size: 15px;
+    margin-left: 45px;
+  }
+
+  .art {
+    font-size: 21px;
+  }
+
+  .load {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .paragraph {
+    border: 1px solid #fff;
+    margin: 4px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+  }
+
+  .load p {
+    margin-left: 45px;
+  }
+
+  .contain {
+    color: rgb(204, 60, 60);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  .para {
+    background-color: #bd2b2b;
+    border: 3px white solid;
+    border-radius: 4px;
+    padding: 5%;
+    font-size: 20px;
+  }
+
+  .card-section {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(12, 11, 11, 0.363);
+  }
+
+  .card-one {
+    float: left;
+    width: 13%;
+    padding: 13px 14px;
+    background-color: #ccc;
+    margin: 10px;
+    height: 200px;
+    margin-left: 40px;
+  }
+
+  .card-info {
+    text-align: center;
+    font-size: 15px;
+    color: #bd2b2b;
+  }
+
+  .info p {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .icon1 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .ox {
+    font-size: 12px;
+  }
+
+  .card-icon {
+    width: 60px;
+    padding: 2px;
+    padding-top: 30%;
+    padding-left: 40%;
+  }
+
+  .icon {
+    width: 190px;
+    padding: 2px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+  }
+
+  .con {
+    width: 110px;
+    height: 50px;
+    padding-top: 4%;
+    padding-left: 7%;
+  }
+
+  .noc {
+    width: 110px;
+    height: 70px;
+    padding-top: 4%;
+    padding-left: 7%;
+  }
+
+  .box {
+    text-align: center;
+  }
+
+  .card-box {
+    margin-right: 10px;
+  }
+
+  .join {
+    text-align: center;
+    background-color: maroon;
+    color: aliceblue;
+    display: flex;
+    margin: 60px;
+    padding: 2%;
+    font-size: 25px;
+    margin-right: 40px;
+  }
+
+  .HeaderTitle {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+  }
+
+  .speak {
+    display: flex;
+    gap: 10px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .TonicHeader {
+    text-align: center;
+    padding: 7%;
+  }
+
+  .TonicEnd {
+    color: lightcoral;
+  }
+
+  .Content {
+    color: #bd2b2b;
+    font-size: 13px;
+  }
+
+  .pop {
+    font-size: 20px;
+  }
+
+  .image {
+    width: 175px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
